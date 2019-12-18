@@ -134,7 +134,7 @@ var faveColorFinder = function(color){
     case 'red': return "red is a great color"
     case 'green': return "green is a solid favorite color"
     case 'black': return "so trendy"
-    default: "you need to evaluate your favorite color choice"
+    default: return "you need to evaluate your favorite color choice"
   }
 }
 
